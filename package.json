@@ -1,0 +1,52 @@
+{
+  "name": "finni-ai",
+  "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy",
+    "website:dev": "vite",
+    "website:build": "vite build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@radix-ui/react-slot": "1.1.2",
+    "@sanity/client": "^7.14.1",
+    "@sanity/vision": "^5.12.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.487.0",
+    "react": "^19.1",
+    "react-dom": "^19.1",
+    "react-router-dom": "^7.13.0",
+    "sanity": "^5.12.0",
+    "styled-components": "^6.1.18",
+    "tailwind-merge": "3.2.0",
+    "tw-animate-css": "1.3.8"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^6.0.0",
+    "@tailwindcss/vite": "4.1.12",
+    "@types/react": "^19.1",
+    "@vitejs/plugin-react": "4.7.0",
+    "eslint": "^9.28",
+    "prettier": "^3.5",
+    "tailwindcss": "4.1.12",
+    "typescript": "^5.8",
+    "vite": "6.3.5"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  },
+  "type": "module"
+}
